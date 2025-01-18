@@ -51,12 +51,6 @@
             <version>5.5.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.12</version>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <build>
@@ -72,7 +66,7 @@
                     <artifactId>allure-maven</artifactId>
                     <version>2.10.0</version>
                     <configuration>
-                        <reportVersion>2.15.0</reportVersion>
+                        <reportVersion>2.10.0</reportVersion>
                     </configuration>
                 </plugin>
                 <plugin>
